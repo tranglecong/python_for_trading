@@ -56,7 +56,7 @@ The script will:
 
 Below is an example of a generated candlestick chart with various indicators overlayed.
 
-![Example Chart](./docs/example-chart.png)
+![Example Chart](https://github.com/tranglecong/python_for_trading/blob/main/.docs/example_chart.png?raw=true)
 
 ## Usage Notes
 
