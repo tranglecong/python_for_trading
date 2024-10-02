@@ -59,7 +59,3 @@ Below is an example of a generated candlestick chart with various indicators ove
 ## Contributions
 
 Feel free to fork this repository, submit issues, and make pull requests if you have suggestions or improvements for the strategy or visualizations.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
