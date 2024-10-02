@@ -8,16 +8,9 @@ This repository contains an implementation of a trading strategy using multiple 
 The project includes a script that:
 
 1. **Loads Historical Data**: Uses a pre-saved dataset (e.g., `BTC_USDT_USDT-1h-futures.feather`) to analyze trading data.
-2. **Applies Technical Indicators**: Populates the DataFrame with multiple technical indicators, such as:
-   - RSI (Relative Strength Index)
-   - ADX (Average Directional Index)
-   - Bollinger Bands
-   - Parabolic SAR
-   - Hawkeye Volume Analysis
-   - Pivot Points
-3. **Detects Candlestick Patterns**: Finds and marks bullish and bearish candlestick patterns.
-4. **Generates Trading Signals**: Creates buy (`enter_long`) and sell (`enter_short`) signals based on a combination of technical indicators.
-5. **Creates Visualizations**: Generates and saves a candlestick chart using Plotly.
+2. **Applies Technical Indicators**: Populates the DataFrame with multiple technical indicators.
+3. **Generates Trading Signals**: Creates buy (`enter_long`) and sell (`enter_short`) signals based on a combination of technical indicators.
+4. **Creates Visualizations**: Generates and saves a candlestick chart using Plotly.
 
 ## Dependencies
 
