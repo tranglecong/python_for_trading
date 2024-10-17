@@ -10,3 +10,4 @@ TA-Lib==0.4.32
 technical==1.4.4
 tenacity==9.0.0
 tzdata==2024.1
+tqdm==4.66.5
