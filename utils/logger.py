@@ -2,6 +2,7 @@ from datetime import datetime
 import logging
 import sys
 import time
+import os
 
 
 class Formatter(logging.Formatter):
@@ -46,6 +47,7 @@ class Logger(logging.Logger):
         # Ensure the logger doesn't propagate to parent loggers
         self.propagate = False
 
-
+if not os.path.exists("./logs"):
+    os.makedirs("./logs")
 log_file_path = f"./logs/trading_{datetime.now().strftime('%Y-%m-%d')}.log"
 logger = Logger("trading", log_file=log_file_path, level=logging.INFO)
